@@ -23,6 +23,9 @@ if ($page_name=='') {
 
 }else if($page_name=='nosotras.php') {
 	include 'view/nosotras.php';
+
+}else if($page_name=='disenos.php') {
+	include 'view/disenos.php';
 }
 
 ?>

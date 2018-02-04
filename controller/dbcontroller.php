@@ -3,7 +3,7 @@ class DBController {
 	private $host = "localhost";
 	private $user = "root";
 	private $password = "root";
-	private $database = "cart";
+	private $database = "nails";
 	
 	function __construct() {
 		$conn = $this->connectDB();
@@ -13,7 +13,7 @@ class DBController {
 	}
 	
 	function connectDB() {
-		$conn = mysqli_connect("localhost","root","root","cart");
+		$conn = mysqli_connect("localhost","root","root","nails");
 		return $conn;
 	}
 	

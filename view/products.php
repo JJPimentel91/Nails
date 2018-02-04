@@ -14,15 +14,7 @@ require_once('model/productController.php');
     	<ul class="nav navbar-nav">
       	  <li><a href="#">Pagina Principal</a></li>
       	  <li><a href="http://<?php echo $_SERVER['HTTP_HOST'].'/'.$current_dir.'/nosotras.php'; ?>">Nosotras</a></li>
-      	  <li class="dropdown">
-        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Diseños
-        	<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Casual</a></li>
-              <li><a href="#">Trabajo</a></li>
-              <li><a href="#">Eventos especiales</a></li>
-            </ul>
-      	  </li>
+      	  <li><a href="http://<?php echo $_SERVER['HTTP_HOST'].'/'.$current_dir.'/disenos.php'; ?>">Diseños</a></li>
           <li><a href="#">Agenda tu Cita</a></li>
     	</ul>
   	  </div>
@@ -49,7 +41,7 @@ require_once('model/productController.php');
 	  	<h1 id="title14">DISEÑOS</h1>
 	  	<img src="product-images/nails4.jpeg" id="box2">
 	  	<p id="text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua</p>
-	  	<button id="conoce1">Ver Diseños</button>
+	  	<a href="http://<?php echo $_SERVER['HTTP_HOST'].'/'.$current_dir.'/disenos.php'; ?>"><button id="conoce1">Ver Diseños</button></a>
 	  </div>
 	  <div class="col-sm-4">
 	  	<h1 id="title14">AGENDA</h1>

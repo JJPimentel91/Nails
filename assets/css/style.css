@@ -55,7 +55,8 @@ a.btnRemoveAction:visited{color:#D60202;border:0;padding:2px 10px;font-size:0.9e
     padding: 3px 10px;
     color: #ffffff;
     margin-left: 2px;
-    border-radius: 2px;}
+    border-radius: 2px;
+}
 
 .btnAdded{background-color:#CCC;border:0;padding:3px 10px;color:#FFF;margin-left:1px;}
 #shopping-cart {margin-bottom:30px;}
@@ -160,7 +161,8 @@ a.btnRemoveAction:visited{color:#D60202;border:0;padding:2px 10px;font-size:0.9e
 }
 
 #nopad {
-	padding: 0px 0px 0px 0px
+	padding: 0px 0px 0px 0px;
+    margin: 0px;
 }
 
 #row2 {
@@ -184,7 +186,18 @@ a.btnRemoveAction:visited{color:#D60202;border:0;padding:2px 10px;font-size:0.9e
     background-size: 100% 100%;
     background-attachment: fixed;
     padding: 1px 0px 0px 10px;
-    height: 350px;
+    height: 400px;
+    margin: 0px 0px;
+    border-radius: 0px;
+}
+
+#mainpicdiv6 {
+    background-image: url(../../product-images/colors.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 1px 0px 0px 10px;
+    height: 400px;
     margin: 0px 0px;
     border-radius: 0px;
 }
@@ -289,6 +302,39 @@ a.btnRemoveAction:visited{color:#D60202;border:0;padding:2px 10px;font-size:0.9e
     margin-top: 20px;
 }
 
+#conoce1:hover {
+    background-color: #7F0040;
+    color: white;
+    border: 2px solid white;
+}
+
+#conoce2 {
+    background-color: white;
+    color: #7F0040;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: 2px solid #7F0040;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+#conoce3 {
+    background-color: white;
+    color: #7F0040;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: 2px solid #7F0040;
+    padding: 5px 10px;
+    margin-top: 20px;
+    float: right;
+}
+
+#conoce2:hover {
+    background-color: #7F0040;
+    color: white;
+    border: 2px solid white;
+}
+
 #nosotros1 {
     padding: 30px 0px 10px 0px;
 }
@@ -306,7 +352,7 @@ a.btnRemoveAction:visited{color:#D60202;border:0;padding:2px 10px;font-size:0.9e
 }
 
 #box1 {
-    margin: 20px 60px;
+    margin: 20px 60px 40px 60px;
 }
 
 #title12 {
@@ -497,4 +543,25 @@ section {
 #quedicen {
     padding: 20px;
     background-color: #f2f2f2;
+}
+
+.modal-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#pics2 {
+    width: 500px;
+    height: 400px;
+}
+
+#modalinfo {
+    width: 33%;
+    height: 99px;
+}
+
+.prodid {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }

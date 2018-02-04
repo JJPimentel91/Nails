@@ -16,12 +16,30 @@ Class productController {
 		return $results;
 	}
 
-	public function getBags(){
+	public function getPink(){
 
 		$db_handle = new DBController();
 		$conn = $db_handle->connectDB();
 
-		$results = $db_handle->runQuery($conn,"SELECT * FROM tblproduct WHERE tipo='bolsa'");
+		$results = $db_handle->runQuery($conn,"SELECT * FROM tblproduct WHERE tipo='rosa'");
+		return $results;
+	}
+
+	public function getBlue(){
+
+		$db_handle = new DBController();
+		$conn = $db_handle->connectDB();
+
+		$results = $db_handle->runQuery($conn,"SELECT * FROM tblproduct WHERE tipo='azul'");
+		return $results;
+	}
+
+	public function getGreen(){
+
+		$db_handle = new DBController();
+		$conn = $db_handle->connectDB();
+
+		$results = $db_handle->runQuery($conn,"SELECT * FROM tblproduct WHERE tipo='verde'");
 		return $results;
 	}
 

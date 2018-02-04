@@ -13,15 +13,7 @@ require_once('header.php');
     	<ul class="nav navbar-nav">
       	  <li><a href="http://<?php echo $_SERVER['HTTP_HOST'].'/'.$current_dir; ?>/"/">Pagina Principal</a></li>
       	  <li><a href="#">Nosotras</a></li>
-      	  <li class="dropdown">
-        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Diseños
-        	<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Casual</a></li>
-              <li><a href="#">Trabajo</a></li>
-              <li><a href="#">Eventos especiales</a></li>
-            </ul>
-      	  </li>
+          <li><a href="http://<?php echo $_SERVER['HTTP_HOST'].'/'.$current_dir.'/disenos.php'; ?>">Diseños</a></li>
           <li><a href="#">Agenda tu Cita</a></li>
     	</ul>
   	  </div>
