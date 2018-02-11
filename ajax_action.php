@@ -116,7 +116,9 @@ if(isset($_SESSION["cart_item"])){
     var y = x-2;
     document.getElementById("numbersforall").innerHTML = y;
 
-</script>		
+</script>
+
   <?php
 }
 ?>
+
